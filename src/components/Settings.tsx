@@ -4,12 +4,6 @@ import './ETFList.css';
 
 type Watchlist = { id: string; name: string; symbols: string[] };
 
-const CURRENCIES: { code: string; label: string; symbol: string }[] = [
-  { code: 'USD', label: 'US Dollar', symbol: '$' },
-  { code: 'EUR', label: 'Euro', symbol: '€' },
-  { code: 'GBP', label: 'British Pound', symbol: '£' },
-];
-
 function uid() { return Math.random().toString(36).slice(2,9); }
 
 const Settings: React.FC = () => {

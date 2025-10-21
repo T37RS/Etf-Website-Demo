@@ -2,29 +2,14 @@ import React, { useState } from 'react';
 import './App.css';
 import ETFList from './components/ETFList';
 import InvestSimulator from './components/InvestSimulator';
-import ETFCharts from './components/ETFCharts';
+// ETFCharts intentionally not used in header nav (kept in repo for later)
 import News from './components/News';
 import Alerts from './components/Alerts';
 import Settings from './components/Settings';
 import Projections from './components/Projections';
 import LedMatrixBackground from './components/LedMatrixBg';
 import MatrixRobot from './components/MatrixRobot';
-import { FaChartBar } from 'react-icons/fa6';
-import { FaUserCircle, FaCog } from 'react-icons/fa';
-import { LineChart, Line, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recharts';
-
-
-const ChartBarIcon = FaChartBar as unknown as React.FC<React.SVGProps<SVGSVGElement>>;
-const UserCircleIcon = FaUserCircle as unknown as React.FC<React.SVGProps<SVGSVGElement>>;
-const CogIcon = FaCog as unknown as React.FC<React.SVGProps<SVGSVGElement>>;
-
-const dashboardData = [
-  { name: 'Mon', value: 400 },
-  { name: 'Tue', value: 420 },
-  { name: 'Wed', value: 410 },
-  { name: 'Thu', value: 430 },
-  { name: 'Fri', value: 440 },
-];
+// Note: removed unused icon and recharts imports to silence build warnings.
 
 function App() {
   const [page, setPage] = useState<'etfs' | 'settings' | 'simulator' | 'charts' | 'news' | 'alerts' | 'projections'>('etfs');

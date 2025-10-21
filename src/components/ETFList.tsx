@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ETFList.css';
-import { LineChart, Line, ResponsiveContainer } from 'recharts';
+// Recharts removed from ETFList (sparkline removed) to avoid unused import warnings
 import { ETF_META, FINNHUB_API_KEY } from '../data/etfData';
 
 type ETF = {
