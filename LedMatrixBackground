@@ -1,0 +1,5 @@
+// Re-export the actual TSX component to avoid bundler resolving this import to a static media path.
+// This file exists to handle tooling that may import './components/LedMatrixBackground' without
+// extension. It forwards to the real TSX component.
+
+export { default } from './LedMatrixBackground.tsx';
