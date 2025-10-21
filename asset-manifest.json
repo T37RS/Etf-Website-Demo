@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Etf-Website-Demo/static/css/main.490d06f9.css",
+    "main.js": "/Etf-Website-Demo/static/js/main.09f3a7f5.js",
+    "static/js/453.a782669c.chunk.js": "/Etf-Website-Demo/static/js/453.a782669c.chunk.js",
+    "index.html": "/Etf-Website-Demo/index.html",
+    "main.490d06f9.css.map": "/Etf-Website-Demo/static/css/main.490d06f9.css.map",
+    "main.09f3a7f5.js.map": "/Etf-Website-Demo/static/js/main.09f3a7f5.js.map",
+    "453.a782669c.chunk.js.map": "/Etf-Website-Demo/static/js/453.a782669c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.490d06f9.css",
+    "static/js/main.09f3a7f5.js"
+  ]
+}
