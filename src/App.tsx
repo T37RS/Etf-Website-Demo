@@ -63,8 +63,9 @@ function App() {
         </section>
         <footer className="site-footer">
           <div className="footer-inner">
-            <div>Created by T37RS</div>
-            <div className="footer-meta">Built with React · TypeScript · Recharts · CSS. For portfolio use only.</div>
+            <div className="footer-created">Created by Thomas Sickinger</div>
+            <div className="footer-meta">Built with React · TypeScript · Recharts · CSS</div>
+            <div className="footer-copy">© {new Date().getFullYear()} Thomas Sickinger · For portfolio use only.</div>
             <div className="footer-links"><a href="https://github.com/T37RS/Etf-Website-Demo" target="_blank" rel="noreferrer">Source</a></div>
           </div>
         </footer>

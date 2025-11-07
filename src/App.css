@@ -152,6 +152,8 @@ body {
 .site-footer .footer-meta { font-size:0.85rem; color: rgba(200,215,235,0.7); }
 .site-footer a { color: #9ec7ff; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
+.site-footer .footer-created { font-weight: 700; color: #dff6ff; }
+.site-footer .footer-copy { font-size: 0.85rem; color: rgba(200,215,235,0.65); }
 
 /* Modern glassmorphism card for dashboard/settings */
 .placeholder-card {
